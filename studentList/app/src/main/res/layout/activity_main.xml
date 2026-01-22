@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:padding="16dp">
+
+        <!-- HEADING -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Information Table"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp" />
+
+
+        <!-- Table Heading -->
+
+        <TableRow>
+            <TextView
+                android:text="Roll No"
+                android:textStyle="bold"
+                android:padding="8dp" />
+            <TextView
+                android:text="Name"
+                android:textStyle="bold"
+                android:padding="8dp" />
+            <TextView
+                android:text="Class"
+                android:textStyle="bold"
+                android:padding="8dp" />
+        </TableRow>
+
+        <!-- Student Rows -->
+        <TableRow>
+            <TextView android:text="1" android:padding="8dp"/>
+            <TextView android:text="Rahul Sharma" android:padding="8dp"/>
+            <TextView android:text="CO-6" android:padding="8dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="2" android:padding="8dp"/>
+            <TextView android:text="Amit Patil" android:padding="8dp"/>
+            <TextView android:text="CO-6" android:padding="8dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="3" android:padding="8dp"/>
+            <TextView android:text="Kunal Udhar" android:padding="8dp"/>
+            <TextView android:text="CO-6" android:padding="8dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="4" android:padding="8dp"/>
+            <TextView android:text="Sneha Deshmukh" android:padding="8dp"/>
+            <TextView android:text="CO-6" android:padding="8dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="5" android:padding="8dp"/>
+            <TextView android:text="Rohit Jadhav" android:padding="8dp"/>
+            <TextView android:text="CO-6" android:padding="8dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="6" android:padding="8dp"/>
+            <TextView android:text="Pooja Kulkarni" android:padding="8dp"/>
+            <TextView android:text="CO-6" android:padding="8dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="7" android:padding="8dp"/>
+            <TextView android:text="Akash Pawar" android:padding="8dp"/>
+            <TextView android:text="CO-6" android:padding="8dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="8" android:padding="8dp"/>
+            <TextView android:text="Neha Joshi" android:padding="8dp"/>
+            <TextView android:text="CO-6" android:padding="8dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="9" android:padding="8dp"/>
+            <TextView android:text="Sagar More" android:padding="8dp"/>
+            <TextView android:text="CO-6" android:padding="8dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="10" android:padding="8dp"/>
+            <TextView android:text="Priya Patil" android:padding="8dp"/>
+            <TextView android:text="CO-6" android:padding="8dp"/>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
